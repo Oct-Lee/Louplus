@@ -1,0 +1,16 @@
+mkdir Demo
+cd Demo
+vim README.md
+#Demo
+git init
+ls -la
+#.git
+cd .git
+ls
+git add README.md
+git status
+git config --global user.name "YourName"
+git config --global user.email "YourEmail@xxx.com"
+git commit -m "first commit"
+git remote add origin https://github.com/Oct-Lee/Louplus.git
+git push origin master
